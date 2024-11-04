@@ -4,9 +4,13 @@ header {
     margin: .5 .5 .5rem 0; 
     position: static;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
-    
+     font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        
+      }
+      
 
     .box {
         background-image: url(headerback.jpg);
@@ -17,7 +21,7 @@ header {
        justify-content: center;
        align-items: center;
       }
-}
+
  
 
 #nav-image-container {
@@ -90,12 +94,13 @@ nav {
 
 
 #content {
-    background-color:rgb(108, 135, 167);
+    background-color:rgba(113, 130, 111, 0.429);
     padding: 1rem;
-    border-color: rgba(9, 56, 76, 0.746);
+    border-color: rgba(46, 31, 4, 0.746);
     border-width: 10px;
     border-style: double ;
     flex : 1;
+    font-size: 22px;
 } 
 
 #homepage-img {
@@ -110,7 +115,7 @@ nav {
 
 
 h1 {  
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -118,7 +123,7 @@ h1 {
 }
 
 h2{
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style:  normal;
@@ -129,7 +134,7 @@ h2{
 }
 
 #recentposts-img-container {
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     
@@ -154,4 +159,61 @@ h2{
 }
 
 
+
+
+
+
+/* About me section */
+
+#nav-image-container {
+    display: flex ;
+    margin-top: 1rem
+}
+
+#about-me-logo {
+    background: rgba(140, 59, 22, 0.429);
+    border: 1px solid #9799a7;
+    padding: .5rem;
+    width: 7rem;
+    height: 5rem;
+    margin-right: 1rem;
+  }
+
+
+#about-me-nav-container {
+    background-color:rgba(113, 130, 111, 0.429);
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+
+#aboutme-img {
+    
+    background: rgba(140, 59, 22, 0.429);
+    border: 1px solid #9799a7;
+    padding: .5rem;
+    width: 30%;
+    height: auto;
+    margin-right: 0.5rem;
+
+  }
+
+  #about-me-content-image-container{
+    display: flex;
+    margin-right: auto;
+    margin-top: 1rem;
+    
+  }
+  
+
+h1 {  
+    font-family:  sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
 

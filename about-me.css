@@ -1,12 +1,16 @@
 
+
+/*
 header {
     background-color:rgba(140, 59, 22, 0.429);
     padding: .5rem;
     margin: .5 .5 .5rem 0; 
     position: static;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
     
 
     .box {
@@ -77,12 +81,15 @@ nav {
 
 
 #content {
-    background-color:rgb(108, 135, 167);
+    background-color:rgba(113, 130, 111, 0.429);
     padding: 1rem;
     border-color: rgba(9, 56, 76, 0.746);
     border-width: 10px;
     border-style: double ;
     flex : 1;
+    margin-left: 0.5rem;
+    font-size: 20px
+
 } 
 
 #aboutme-img {
@@ -91,18 +98,20 @@ nav {
     border: 1px solid #9799a7;
     padding: .5rem;
     width: 30rem;
-    height: auto
+    height: auto;
+
   }
 
   #content-image-container{
     display: flex;
     margin-right: auto;
+    margin-top: 1rem;
     
   }
   
 
 h1 {  
-    font-family: "Montserrat", sans-serif;
+    font-family:  sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
