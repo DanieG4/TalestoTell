@@ -68,7 +68,7 @@ nav {
 
 .horizontal-nav-list li a {
     display: block;
-    color: white;
+    color: rgb(9, 9, 9);
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
