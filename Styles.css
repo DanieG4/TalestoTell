@@ -46,6 +46,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
+    
 }
 
 nav {
@@ -72,7 +73,9 @@ nav {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size:20px
+    font-size:20px;
+    font-family: "funnel display";
+
 }
 
 .horizontal-nav-list li a:hover {
@@ -101,6 +104,7 @@ nav {
     border-style: double ;
     flex : 1;
     font-size: 22px;
+    font-family: "funnel display";
 } 
 
 #homepage-img {
@@ -119,11 +123,12 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    font-family: "funnel display";
 
 }
 
 h2{
-    font-family: sans-serif;
+    font-family: "funnel-display";
     font-optical-sizing: auto;
     font-weight: 600;
     font-style:  normal;
@@ -134,7 +139,7 @@ h2{
 }
 
 #recentposts-img-container {
-    font-family: sans-serif;
+    font-family: "funnel-display";
     font-optical-sizing: auto;
     font-weight: 600;
     
@@ -210,7 +215,7 @@ h2{
   
 
 h1 {  
-    font-family:  sans-serif;
+    font-family:  "funnel-display";
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
