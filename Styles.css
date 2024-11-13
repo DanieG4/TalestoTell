@@ -131,8 +131,9 @@ h1 {
 }
 
 h2{
-    font-family: "funnel-display";
+    font-family: "funnel display";
     font-optical-sizing: auto;
+    font-size: 30px;
     font-weight: 600;
     font-style:  normal;
     text-align: center;  
@@ -142,14 +143,16 @@ h2{
 }
 
 #recentposts-img-container {
-    font-family: "funnel-display";
+    font-family: "funnel display";
     font-optical-sizing: auto;
     font-weight: 600;
+    
     
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.5%;
+    
 }
 
 .image-container {
@@ -159,11 +162,14 @@ h2{
 .recentposts-img{
     height: 15rem;
     width: 15rem;
+    border: 10px solid rgba(140, 59, 22, 0.429); 
 }
 
 .img-caption {
     display: block;
     text-align: center;
+    font-size: 25px;
+    font-family: "funnel display";
 }
 
 
@@ -226,3 +232,77 @@ h1 {
 
 }
 
+/*blog page */
+
+    #blog-image-container {
+        font-family: "funnel display";
+        font-optical-sizing: auto;
+        font-weight: 600;
+        
+        
+        display:auto;
+        grid-template-columns: repeat (2, 1fr);
+        column-gap: 4%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        
+    }
+    
+    .blogimage-container {
+        width: auto;
+       
+    }
+    
+    .blog-img{
+        height: 25rem;
+        width: 25rem;
+        border: 10px solid rgba(140, 59, 22, 0.429); 
+    }
+    
+    .blogimg-caption {
+        text-align: right;
+        font-size: 25px;
+        font-family: "funnel display";
+        
+    }
+
+/*Contact me Page*/
+
+table {
+    border: black 4px solid;
+    text-align: center;
+    font-family: "funnel display";
+    background-color: #81937e69;
+    font-size:2rem;
+    padding-bottom:5rem;
+    padding-top: 5rem;
+
+    
+}
+
+td {
+    border: black 3px solid
+}
+
+th {
+    margin-top:3px;
+    font-size: 3rem;
+}
+
+form {
+    border:black 4px solid;
+    height:10rem;
+    padding:3rem;
+    padding-top:5rem;
+    text-align: center;
+    font-family: "funnel display";
+    font-size:20px;
+}
+
+
+#form-table-container {
+    display:grid;
+    margin-top:3rem;
+    column-gap: 10%;
+  
+}
