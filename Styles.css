@@ -234,22 +234,22 @@ h1 {
 
 /*blog page */
 
-    #blog-image-container {
+    #blog-master-container {
         font-family: "funnel display";
         font-optical-sizing: auto;
-        font-weight: 600;
-        
-        
-        display:auto;
-        grid-template-columns: repeat (2, 1fr);
-        column-gap: 4%;
+        font-weight: 600px;
         padding-top: 2rem;
         padding-left: 2rem;
         
     }
     
-    .blogimage-container {
+    .blog-post-container {
         width: auto;
+        display:flex;
+        margin-bottom:1.5rem;
+        margin-left:7rem;
+
+        
        
     }
     
@@ -259,13 +259,23 @@ h1 {
         border: 10px solid rgba(140, 59, 22, 0.429); 
     }
     
-    .blogimg-caption {
-        text-align: right;
+    .blog-caption-container {
+
+        border: 10px solid rgba(140, 59, 22, 0.429); 
         font-size: 25px;
         font-family: "funnel display";
+
         
     }
 
+    .blog-caption-header{
+
+
+    }
+
+    .blog-caption-text {
+
+    }
 /*Contact me Page*/
 
 table {
