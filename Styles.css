@@ -1,4 +1,9 @@
 
+/* Table and form file are on the contact-me.html
+website address- https://danieg4.github.io/TalestoTell/index.html
+ */
+
+ 
 html {background-color: #090c0827;}
 
 header {
@@ -16,7 +21,7 @@ header {
       
 
     .box {
-        background-image: url(headerback.jpg);
+        background-image: url(Images/headerback.jpg);
         background-repeat: repeat;
        height: 5rem;
        width: auto ;
@@ -166,7 +171,6 @@ h2{
 }
 
 .img-caption {
-    display: block;
     text-align: center;
     font-size: 25px;
     font-family: "funnel display";
@@ -210,7 +214,7 @@ h2{
     background: rgba(140, 59, 22, 0.429);
     border: 1px solid #9799a7;
     padding: .5rem;
-    width: 30%;
+    width: 30rem;
     height: auto;
     margin-right: 0.5rem;
 
@@ -256,12 +260,12 @@ h1 {
     .blog-img{
         height: 25rem;
         width: 25rem;
-        border: 10px solid rgba(140, 59, 22, 0.429); 
+        border: 5px solid rgba(140, 59, 22, 0.429); 
     }
     
     .blog-caption-container {
 
-        border: 10px solid rgba(140, 59, 22, 0.429); 
+        border: 5px solid rgba(140, 59, 22, 0.429); 
         font-size: 25px;
         font-family: "funnel display";
 
@@ -269,12 +273,18 @@ h1 {
     }
 
     .blog-caption-header{
+        font-size: 45px;
+        font-family: "funnel display"; 
+        text-align: center;  
 
 
     }
 
     .blog-caption-text {
-
+        font-size: 25px;
+        font-family: "funnel display"; 
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 /*Contact me Page*/
 
@@ -282,7 +292,7 @@ table {
     border: black 4px solid;
     text-align: center;
     font-family: "funnel display";
-    background-color: #81937e69;
+    background-color: #a8a8a869;
     font-size:2rem;
     padding-bottom:5rem;
     padding-top: 5rem;
@@ -315,4 +325,39 @@ form {
     margin-top:3rem;
     column-gap: 10%;
   
+}
+
+
+
+#content-resource-container {
+
+    Display:flex ;
+    background-color: #fffdfd;
+    font-size:2rem;
+    padding-bottom:5rem;
+    padding-top: 2rem;
+    margin-top: 0rem;
+    font-family:"funnel display";
+    font-weight: 100;
+    font-size: 2rem;
+   
+   
+}
+
+#content-resource{
+    display:center;
+    background-color: #a8a8a869;
+    font-size:2rem;
+    padding-bottom:2rem;
+    padding-top: 5rem;
+    font-family:"funnel display" ;
+   
+}
+
+#dest-images {
+    display:center;
+    height:30rem;
+    width:30rem;
+    padding-right:10rem;
+    padding-left:10rem;
 }
